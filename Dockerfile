@@ -37,10 +37,6 @@ RUN curl -SL $BLENDER_DL_URL -o blender.tar.xz \
 # Add Blender to the PATH
 ENV PATH="/usr/local/blender:${PATH}"
 
-# Install python-cowsay within Blender's Python environment
-RUN /usr/local/blender/${BL_VERSION_SHORT}/python/bin/python3.11 -m ensurepip \
-    && /usr/local/blender/${BL_VERSION_SHORT}/python/bin/python3.11 -m pip install python-cowsay
-
 # Set environment vars to be used when the image is running in a container
 ENV BL_VERSION_SHORT=${BL_VERSION_SHORT}
 ENV NVIDIA_DRIVER_CAPABILITIES=all

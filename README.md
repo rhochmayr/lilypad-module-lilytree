@@ -6,7 +6,7 @@ Lilytree is a demo module that combines Blender geometry nodes and Blender scrip
 
 ![Lilytree 3D Blender](examples/lilytree_0xb0790aAcE3294d0e0c8892fa2B8a54172449D8B4.jpeg)
 
-## Lilytree
+## Lilypad
 
 To run Lilytree on the Lilypad network, you can use the following commands:
 
