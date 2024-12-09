@@ -19,7 +19,7 @@
             "--python", 
             "/app/lilytree.py", 
             "--",
-            {{ if .ETH_Address }} {{ .ETH_Address }} {{else}} 0xE422729513e2dB165D2f017CEa761FC555CF220A {{ end }}
+            {{ if .ETH_Address }} {{ .ETH_Address }} {{else}} "0xE422729513e2dB165D2f017CEa761FC555CF220A" {{ end }}
         ],
         "Image": "ghcr.io/rhochmayr/lilytree-blender:latest"
       },
